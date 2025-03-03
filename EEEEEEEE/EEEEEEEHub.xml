@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Diddys"/>
+<Content type="html"><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+    <title>EEEEEEE Hub</title>
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .games-text {
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 40;
+            transition: opacity 0.3s ease;
+            padding-top: 1rem;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        .games-grid-container {
+            padding-top: 8rem;
+        }
+
+        .game-card {
+            animation: fadeUp 0.5s ease forwards;
+            animation-delay: calc(0.1s * var(--i));
+            border: 2px solid transparent;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .game-card:hover {
+            border-color: #3b82f6; /* Blue border on hover */
+            transform: scale(1.05);
+        }
+
+        .game-card:hover .game-info {
+            transform: translateY(0);
+        }
+
+        .game-info {
+            transform: translateY(100%);
+            transition: all 0.3s ease;
+        }
+
+        .game-card:hover .game-image {
+            transform: scale(1.1);
+        }
+
+        .game-image {
+            transition: all 0.3s ease;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #3b82f6; /* Blue scrollbar */
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2563eb; /* Darker blue on hover */
+        }
+
+        #gamePopup.active {
+            opacity: 1 !important;
+            pointer-events: auto !important;
+        }
+
+        #gamePopup.active #popupContent {
+            opacity: 1 !important;
+            transform: scale(1) !important;
+        }
+
+        /* Footer Style */
+        footer {
+            background-color: #1f2937; /* Dark background */
+            color: #ffffff; /* White text */
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #3b82f6; /* Blue link color */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6', /* Blue primary color */
+                        'primary-hover': '#2563eb', /* Darker blue on hover */
+                        'game-bg': '#0f172a', /* Dark background */
+                        'blue-accent': '#1d4ed8', /* Accent blue */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-game-bg to-slate-900 min-h-screen text-white overflow-x-hidden">
+    <div class="fixed top-0 left-0 right-0 p-5 bg-slate-900/95 backdrop-blur-lg z-50 shadow-xl">
+        <div class="max-w-3xl mx-auto relative">
+            <i class="ri-search-line absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+            <input type="text" class="w-full bg-white/5 border-2 border-blue-accent rounded-xl py-3 px-11 text-white placeholder-slate-400 focus:outline-none focus:border-primary transition-all" placeholder="Search games...">
+        </div>
+    </div>
+
+    <div class="games-text">
+        <h1 class="text-7xl font-extrabold bg-gradient-to-r from-blue-500 via-primary to-blue-600 text-transparent bg-clip-text opacity-80">
+            GAMES
+        </h1>
+    </div>
+
+    <div class="games-grid-container">
+        <div id="gamesGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 px-4 max-w-[1800px] mx-auto pb-8">
+            <!-- Game cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <div id="gamePopup" class="fixed inset-0 flex items-center justify-center z-[100] opacity-0 pointer-events-none transition-all duration-300">
+        <div class="absolute inset-0 bg-black/90 backdrop-blur-sm" id="overlay"></div>
+        
+        <div class="relative w-[95%] max-w-6xl bg-slate-900/95 rounded-2xl overflow-hidden transition-all duration-300 scale-95 opacity-0 transform" id="popupContent">
+            <div id="gameFrame" class="w-full aspect-video bg-black"></div>
+
+            <div class="flex items-center justify-between p-3 bg-slate-950/90 border-t border-white/5">
+                <h2 id="gameTitle" class="text-lg font-medium text-slate-200 px-2"></h2>
+                <div class="flex gap-2">
+                    <button id="fullscreenBtn" class="w-9 h-9 flex items-center justify-center rounded-lg bg-slate-800 hover:bg-primary transition-all">
+                        <i class="ri-fullscreen-line text-lg"></i>
+                    </button>
+                    <button id="closeBtn" class="w-9 h-9 flex items-center justify-center rounded-lg bg-slate-800 hover:bg-primary transition-all">
+                        <i class="ri-close-line text-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const gamesText = document.querySelector('.games-text');
+            window.addEventListener('scroll', () => {
+                const scrollPosition = window.scrollY;
+                if (scrollPosition > 100) {
+                    gamesText.style.opacity = '0';
+                } else {
+                    gamesText.style.opacity = '0.8';
+                }
+            });
+
+            const searchBar = document.querySelector('input');
+            const gamesGrid = document.getElementById('gamesGrid');
+            let allGames = [];
+
+            fetch('https://cdn.jsdelivr.net/gh/UnknownCodersonLT4/WholeGamesT4@refs/heads/main/GameTextT1/GameTextT9.txt')
+                .then(response => response.text())
+                .then(data => {
+                    const tempContainer = document.createElement('div');
+                    tempContainer.innerHTML = data;
+                    
+                    const gameLinks = tempContainer.getElementsByTagName('a');
+                    
+                    allGames = Array.from(gameLinks).map((link, index) => {
+                        const img = link.querySelector('img');
+                        return {
+                            url: link.getAttribute('data-url'),
+                            image: img?.src || '',
+                            title: img?.getAttribute('title') || img?.alt || `Game ${index + 1}`
+                        };
+                    });
+
+                    renderGames(allGames);
+                })
+                .catch(error => {
+                    console.error('Error loading games:', error);
+                    gamesGrid.innerHTML = '<p class="col-span-full text-center text-slate-400 py-8">Error loading games. Please try again later.</p>';
+                });
+
+            function renderGames(games) {
+                gamesGrid.innerHTML = games.map((game, index) => `
+                    <div class="game-card opacity-0 aspect-square rounded-xl overflow-hidden relative cursor-pointer border-2 border-transparent hover:border-primary hover:-translate-y-1 transition-all bg-slate-800/50 group"
+                         data-url="${game.url}" 
+                         data-title="${game.title}" 
+                         style="--i: ${index + 1}">
+                        <img src="${game.image}" 
+                             alt="${game.title}" 
+                             class="game-image w-full h-full object-cover">
+                        <div class="game-info absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-black/90 to-transparent">
+                            <div class="text-sm font-semibold text-center">${game.title}</div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            searchBar.addEventListener('input', (e) => {
+                const searchTerm = e.target.value.toLowerCase();
+                const filteredGames = allGames.filter(game => 
+                    game.title.toLowerCase().includes(searchTerm)
+                );
+                renderGames(filteredGames);
+            });
+
+            gamesGrid.addEventListener('click', (e) => {
+                const card = e.target.closest('.game-card');
+                if (!card) return;
+
+                const url = card.dataset.url;
+                gameTitle.textContent = card.dataset.title;
+                gamePopup.classList.add('active');
+                
+                const iframe = document.createElement('iframe');
+                iframe.className = 'w-full h-full border-0';
+                iframe.src = url;
+                iframe.allowFullscreen = true;
+                
+                gameFrame.innerHTML = '';
+                gameFrame.appendChild(iframe);
+            });
+
+            fullscreenBtn.addEventListener('click', () => {
+                if (!document.fullscreenElement) {
+                    gameFrame.requestFullscreen();
+                    fullscreenBtn.innerHTML = '<i class="ri-fullscreen-exit-line text-lg"></i>';
+                } else {
+                    document.exitFullscreen();
+                    fullscreenBtn.innerHTML = '<i class="ri-fullscreen-line text-lg"></i>';
+                }
+            });
+
+            function closePopup() {
+                gamePopup.classList.remove('active');
+                setTimeout(() => {
+                    gameFrame.innerHTML = '';
+                }, 300);
+            }
+
+            closeBtn.addEventListener('click', closePopup);
+            overlay.addEventListener('click', closePopup);
+
+            document.addEventListener('fullscreenchange', () => {
+                if (!document.fullscreenElement) {
+                    fullscreenBtn.innerHTML = '<i class="ri-fullscreen-line text-lg"></i>';
+                }
+            });
+        });
+    </script>
+
+    <!-- Footer Section -->
+    <footer>
+     ©  Made By <a href="https://docs.google.com/document/d/1ojBTydDi_Db8fAHmNUiqgOrwJDKoLGCOZL40dpdOrcM/edit?usp=sharing" target="_blank">BigFIshGaming</a>.All Rights Are Reserved.
+    </footer>
+</body>
+</html>
+]]></Content>
+</Module>
