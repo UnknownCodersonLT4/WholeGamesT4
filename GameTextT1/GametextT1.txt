@@ -1,0 +1,254 @@
+  <a id="1" data-url="https://education.deez.it.com/eggy-car/index.html"><img src="https://education.deez.it.com/images/eggycar.png" title="Eggy Car"></a>
+  <a id="2" data-url="https://education.deez.it.com/cookieclicker/index.html"><img src="https://education.deez.it.com/images/cookieclicker.png" title="Cookie Clicker"></a>
+  <a id="3" data-url="https://education.deez.it.com/slope/index.html"><img src="https://education.deez.it.com/images/slope.png" title="Slope"></a>
+  <a id="4" data-url="https://education.deez.it.com/basketball-stars/index.html"><img src="https://education.deez.it.com/images/basketballstars.png" title="Basketball Stars"></a>
+  <a id="5" data-url="https://education.deez.it.com/amongus/index.html"><img src="https://education.deez.it.com/images/amongus.png" title="Among Us"></a>
+  <a id="6" data-url="https://education.deez.it.com/bloonstd5.html"><img src="https://education.deez.it.com/images/bloonstd5.png" title="Bloons TD 5"></a>
+  <a id="7" data-url="https://education.deez.it.com/Moto-X3M/index.html"><img src="https://education.deez.it.com/images/motox3m.png" title="Moto X3M"></a>
+  <a id="8" data-url="https://education.deez.it.com/papaspizzeria/index.html"><img src="https://education.deez.it.com/images/papaspizzeria.png" title="Papa's Pizzeria"></a>
+  <a id="9" data-url="https://education.deez.it.com/geometry-dash/index.html"><img src="https://education.deez.it.com/images/geometrydash.png" title="Geometry Dash"></a>
+  <a id="10" data-url="https://education.deez.it.com/geometrydash/index.html"><img src="https://education.deez.it.com/images/geometrydashlite.png" title="Geometry Dash Lite"></a>
+  <a id="11" data-url="https://education.deez.it.com/FNAF4/index.html"><img src="https://education.deez.it.com/images/fnaf4.png" title="FNAF 4"></a>
+  <a id="12" data-url="https://education.deez.it.com/helixjump/index.html"><img src="https://education.deez.it.com/images/helixjump.png" title="Helix Jump"></a>
+  <a id="13" data-url="https://education.deez.it.com/skibiditoilet/index.html"><img src="https://education.deez.it.com/images/skibiditoilet.png" title="Skibidi Toilet"></a>
+  <a id="14" data-url="https://education.deez.it.com/bloonstd4/index.html"><img src="https://education.deez.it.com/images/bloonstd4.png" title="Bloons Tower Defense 4"></a>
+  <a id="15" data-url="https://education.deez.it.com/subwaysurfers-sf/index.html"><img src="https://education.deez.it.com/images/subwaysurfers.png" title="Subway Surfers"></a>
+  <a id="16" data-url="https://education.deez.it.com/snowrider3d/index.html"><img src="https://education.deez.it.com/images/snowrider3d.png" title="Snow Rider 3D"></a>
+  <a id="17" data-url="https://education.deez.it.com/pixelshooter.html"><img src="https://education.deez.it.com/images/pixelshooter.png" title="Pixel Shooter"></a>
+  <a id="18" data-url="https://education.deez.it.com/noobvspro.html"><img src="https://education.deez.it.com/images/noobvspro.png" title="Noob vs Pro"></a>
+  <a id="19" data-url="https://education.deez.it.com/papasscooperia/index.html"><img src="https://education.deez.it.com/images/papasscooperia.png" title="Papa's Scooperia"></a>
+  <a id="20" data-url="https://education.deez.it.com/uno.html"><img src="https://education.deez.it.com/images/uno.png" title="UNO!"></a>
+  <a id="21" data-url="https://education.deez.it.com/craftmine/index.html"><img src="https://education.deez.it.com/images/craftmine.png" title="Craft Mine"></a>
+  <a id="22" data-url="https://education.deez.it.com/vex5/index.html"><img src="https://education.deez.it.com/images/vex5.png" title="Vex 5"></a>
+  <a id="23" data-url="https://education.deez.it.com/snowball-io/index.html"><img src="https://education.deez.it.com/images/snowballio.png" title="Snowball.io"></a>
+  <a id="24" data-url="https://education.deez.it.com/obbyrobby.html"><img src="https://education.deez.it.com/images/robloxobby.png" title="Roblox Obby"></a>
+  <a id="25" data-url="https://education.deez.it.com/rooftop-snipers/index.html"><img src="https://education.deez.it.com/images/rooftopsnipers.png" title="Rooftop Snipers"></a>
+  <a id="26" data-url="https://education.deez.it.com/ovo/index.html"><img src="https://education.deez.it.com/images/ovo.png" title="OvO"></a>
+  <a id="27" data-url="https://education.deez.it.com/bottle-flip-3d/index.html"><img src="https://education.deez.it.com/images/bottleflip.png" title="Bottle Flip"></a>
+  <a id="28" data-url="https://education.deez.it.com/tunnel-rush/index.html"><img src="https://education.deez.it.com/images/tunnelrush.png" title="Tunnel Rush"></a>
+  <a id="29" data-url="https://education.deez.it.com/johnnytrigger.html"><img src="https://education.deez.it.com/images/johnnytrigger.png" title="Johnny Trigger"></a>
+  <a id="30" data-url="https://education.deez.it.com/timeshooter3.html"><img src="https://education.deez.it.com/images/timeshooter3.png" title="Time Shooter 3 S.W.A.T"></a>
+  <a id="31" data-url="https://education.deez.it.com/mario/index.html"><img src="https://education.deez.it.com/images/supermariobros.png" title="Super Mario Bros"></a>
+  <a id="32" data-url="https://education.deez.it.com/holeio.html"><img src="https://education.deez.it.com/images/holeio.png" title="Hole.io"></a>
+  <a id="33" data-url="https://education.deez.it.com/noobminer.html"><img src="https://education.deez.it.com/images/noobminer.png" title="Noob Miner"></a>
+  <a id="34" data-url="https://education.deez.it.com/watermelongame.html"><img src="https://education.deez.it.com/images/watermelongame.png" title="Watermelon Game"></a>
+  <a id="35" data-url="https://education.deez.it.com/supermariorun.html"><img src="https://education.deez.it.com/images/supermariorun.png" title="Super Mario Run"></a>
+  <a id="36" data-url="https://education.deez.it.com/paperio2/index.html"><img src="https://education.deez.it.com/images/paperio2.png" title="Paper IO 2"></a>
+  <a id="37" data-url="https://education.deez.it.com/tiny-fishing/index.html"><img src="https://education.deez.it.com/images/fishingio.png" title="Fishing.io"></a>
+  <a id="38" data-url="https://education.deez.it.com/football-legends/index.html"><img src="https://education.deez.it.com/images/footballlegends.png" title="Football Legends"></a>
+  <a id="39" data-url="https://education.deez.it.com/retro-bowl/index.html"><img src="https://education.deez.it.com/images/retrobowl.png" title="Retro Bowl"></a>
+  <a id="40" data-url="https://education.deez.it.com/minecraftparkour.html"><img src="https://education.deez.it.com/images/minecraftparkour.png" title="Minecraft Parkour"></a>
+  <a id="41" data-url="https://education.deez.it.com/minecraft-15/index.html"><img src="https://education.deez.it.com/images/minecraft15.png" title="Minecraft 1.5"></a>
+  <a id="42" data-url="https://education.deez.it.com/ballsandbricks.html"><img src="https://education.deez.it.com/images/ballsandbricks.png" title="Balls and Bricks"></a>
+  <a id="43" data-url="https://education.deez.it.com/gunspin/index.html"><img src="https://education.deez.it.com/images/gunspin.png" title="Gun Spin"></a>
+  <a id="44" data-url="https://education.deez.it.com/crazy-cars/index.html"><img src="https://education.deez.it.com/images/crazycars.png" title="Crazy Cars"></a>
+  <a id="45" data-url="https://education.deez.it.com/death-run-3d/index.html"><img src="https://education.deez.it.com/images/deathrun3d.png" title="Death Run 3D"></a>
+  <a id="46" data-url="https://education.deez.it.com/cookingfrenzy.html"><img src="https://education.deez.it.com/images/cookingfrenzy.png" title="Cooking Frenzy"></a>
+  <a id="47" data-url="https://education.deez.it.com/crossyroad/index.html"><img src="https://education.deez.it.com/images/crossyroad.png" title="Crossy Road"></a>
+  <a id="48" data-url="https://education.deez.it.com/ovo-2/index.html"><img src="https://education.deez.it.com/images/ovo2.png" title="OvO 2"></a>
+  <a id="49" data-url="https://education.deez.it.com/pacman/index.html"><img src="https://education.deez.it.com/images/pacman.png" title="Pacman"></a>
+  <a id="50" data-url="https://education.deez.it.com/impossiblequiz/index.html"><img src="https://education.deez.it.com/images/theimpossiblequiz.png" title="The Impossible Quiz"></a>
+  <a id="51" data-url="https://education.deez.it.com/impossiblequiz2/index.html"><img src="https://education.deez.it.com/images/theimpossiblequiz2.png" title="The Impossible Quiz 2"></a>
+  <a id="52" data-url="https://education.deez.it.com/savethedoge/index.html"><img src="https://education.deez.it.com/images/savemypet.png" title="Save My Pet"></a>
+  <a id="53" data-url="https://education.deez.it.com/geometrydash3d.html"><img src="https://education.deez.it.com/images/geometrydash3d.png" title="Geometry Dash 3D"></a>
+  <a id="54" data-url="https://education.deez.it.com/minecraft-18/index.html"><img src="https://education.deez.it.com/images/minecraft18.png" title="Minecraft 1.8"></a>
+  <a id="55" data-url="https://education.deez.it.com/1-9.html"><img src="https://education.deez.it.com/images/minecraft19.png" title="Minecraft 1.9"></a>
+  <a id="56" data-url="https://education.deez.it.com/1-11.html"><img src="https://education.deez.it.com/images/minecraft111.png" title="Minecraft 1.11"></a>
+  <a id="57" data-url="https://education.deez.it.com/1-20.html"><img src="https://education.deez.it.com/images/minecraft120.png" title="Minecraft 1.20"></a>
+  <a id="58" data-url="https://education.deez.it.com/aquaparkcars.html"><img src="https://education.deez.it.com/images/aquaparkcars.png" title="Aquapark Cars"></a>
+  <a id="59" data-url="https://education.deez.it.com/chess.html"><img src="https://education.deez.it.com/images/chess.png" title="Chess"></a>
+  <a id="60" data-url="https://education.deez.it.com/riddleschool1/index.html"><img src="https://education.deez.it.com/images/riddleschool1.png" title="Riddle School 1"></a>
+  <a id="61" data-url="https://education.deez.it.com/snakeis.html"><img src="https://education.deez.it.com/images/snakeio.png" title="Snake.io"></a>
+  <a id="62" data-url="https://education.deez.it.com/asmallworldcup/index.html"><img src="https://education.deez.it.com/images/asmallworldcup.png" title="A Small World Cup"></a>
+  <a id="63" data-url="https://education.deez.it.com/gunnight.html"><img src="https://education.deez.it.com/images/gunnightio.png" title="Gun Night IO"></a>
+  <a id="64" data-url="https://education.deez.it.com/basketballfury.html"><img src="https://education.deez.it.com/images/basketballfury.png" title="Basketball Fury"></a>
+  <a id="65" data-url="https://education.deez.it.com/tubejumpers.html"><img src="https://education.deez.it.com/images/tubejumpers.png" title="Tube Jumpers"></a>
+  <a id="66" data-url="https://education.deez.it.com/blockysnakes.html"><img src="https://education.deez.it.com/images/blockysnakes.png" title="Blocky Snakes"></a>
+  <a id="67" data-url="https://education.deez.it.com/lostwood.html"><img src="https://education.deez.it.com/images/lastwood.png" title="Last Wood"></a>
+  <a id="68" data-url="https://education.deez.it.com/galaga.html"><img src="https://education.deez.it.com/images/galaga.png" title="Galaga"></a>
+  <a id="69" data-url="https://education.deez.it.com/soccerskills/index.html"><img src="https://education.deez.it.com/images/soccerskills.png" title="Soccer Skills"></a>
+  <a id="70" data-url="https://education.deez.it.com/deadzed.html"><img src="https://education.deez.it.com/images/deadzed.png" title="Dead Zed"></a>
+  <a id="71" data-url="https://education.deez.it.com/marioparty4.html"><img src="https://education.deez.it.com/images/marioparty4.png" title="Mario Party 4"></a>
+  <a id="72" data-url="https://education.deez.it.com/agario.html"><img src="https://education.deez.it.com/images/agariolite.png" title="Agar IO Lite"></a>
+  <a id="73" data-url="https://education.deez.it.com/bouncyrush.html"><img src="https://education.deez.it.com/images/bouncyrush.png" title="Bouncy Rush"></a>
+  <a id="74" data-url="https://education.deez.it.com/basketballshooter.html"><img src="https://education.deez.it.com/images/basketballshooter.png" title="Basketball Shooter"></a>
+  <a id="75" data-url="https://education.deez.it.com/3dblockbuilder.html"><img src="https://education.deez.it.com/images/3dblockbuilder.png" title="3D Block Builder"></a>
+  <a id="76" data-url="https://education.deez.it.com/hillclimbing.html"><img src="https://education.deez.it.com/images/hillclimbing.png" title="Hill Climbing"></a>
+  <a id="77" data-url="https://education.deez.it.com/elasticface/index.html"><img src="https://education.deez.it.com/images/elasticface.png" title="Elastic Face"></a>
+  <a id="78" data-url="https://education.deez.it.com/acidrain.html"><img src="https://education.deez.it.com/images/acidrain.png" title="Acid Rain"></a>
+  <a id="79" data-url="https://education.deez.it.com/paperio3.html"><img src="https://education.deez.it.com/images/paperio3.png" title="Paper.io 3D"></a>
+  <a id="80" data-url="https://education.deez.it.com/highwayriderextreme.html"><img src="https://education.deez.it.com/images/highwayriderextreme.png" title="Highway Rider Extreme"></a>
+  <a id="81" data-url="https://education.deez.it.com/bitlife/index.html"><img src="https://education.deez.it.com/images/bitlife.png" title="BitLife"></a>
+  <a id="82" data-url="https://education.deez.it.com/donotstop/index.html"><img src="https://education.deez.it.com/images/donotstop.png" title="Do Not Stop"></a>
+  <a id="83" data-url="https://education.deez.it.com/russiansdrive.html"><img src="https://education.deez.it.com/images/russiansdrive.png" title="Russians Drive"></a>
+  <a id="84" data-url="https://education.deez.it.com/ambulancerush.html"><img src="https://education.deez.it.com/images/ambulancerush.png" title="Ambulance Rush"></a>
+  <a id="85" data-url="https://education.deez.it.com/bounzy2.html"><img src="https://education.deez.it.com/images/bounzy2.png" title="Bounzy 2"></a>
+  <a id="86" data-url="https://education.deez.it.com/electricman.html"><img src="https://education.deez.it.com/images/electricman.png" title="Electric Man"></a>
+  <a id="87" data-url="https://education.deez.it.com/mortalkombat.html"><img src="https://education.deez.it.com/images/mortalkombat.png" title="Mortal Kombat"></a>
+  <a id="88" data-url="https://education.deez.it.com/zombieexploder.html"><img src="https://education.deez.it.com/images/zombieexploder.png" title="Zombie Exploder"></a>
+  <a id="89" data-url="https://education.deez.it.com/minecraftzombieshooter.html"><img src="https://education.deez.it.com/images/minecraftzombieshooter.png" title="Minecraft Zombie Shooter"></a>
+  <a id="90" data-url="https://education.deez.it.com/aimtrainer.html"><img src="https://education.deez.it.com/images/aimtrainer.png" title="Aim Trainer"></a>
+  <a id="91" data-url="https://education.deez.it.com/cyber-cars/index.html"><img src="https://education.deez.it.com/images/cybercars.png" title="Cyber Cars"></a>
+  <a id="92" data-url="https://education.deez.it.com/monstertruckracing/index.html"><img src="https://education.deez.it.com/images/monstertruckrace.png" title="Monster Truck Race"></a>
+  <a id="93" data-url="https://education.deez.it.com/workmadness.html"><img src="https://education.deez.it.com/images/workmadness.png" title="Work Madness"></a>
+  <a id="94" data-url="https://education.deez.it.com/tombofthemask.html"><img src="https://education.deez.it.com/images/tombofthemask.png" title="Tomb Of The Mask"></a>
+  <a id="95" data-url="https://education.deez.it.com/yohoho/index.html"><img src="https://education.deez.it.com/images/yohoho.png" title="Yohoho"></a>
+  <a id="96" data-url="https://education.deez.it.com/mergecars/index.html"><img src="https://education.deez.it.com/images/mergecars.png" title="Merge Cars"></a>
+  <a id="97" data-url="https://education.deez.it.com/wordle/index.html"><img src="https://education.deez.it.com/images/wordle.png" title="Wordle"></a>
+  <a id="98" data-url="https://education.deez.it.com/vex7/index.html"><img src="https://education.deez.it.com/images/vex7.png" title="Vex 7"></a>
+  <a id="99" data-url="https://education.deez.it.com/territorial.html"><img src="https://education.deez.it.com/images/territorial.png" title="Territorial"></a>
+  <a id="100" data-url="https://education.deez.it.com/temple-run-2/index.html"><img src="https://education.deez.it.com/images/templerun2.png" title="Temple Run 2"></a>
+  <a id="101" data-url="https://education.deez.it.com/tacticalassasin2/index.html"><img src="https://education.deez.it.com/images/tacticalassasin2.png" title="Tactical Assasin 2"></a>
+  <a id="102" data-url="https://education.deez.it.com/Stickman-Survival/index.html"><img src="https://education.deez.it.com/images/stickmansurvival.png" title="Stickman Survival"></a>
+  <a id="103" data-url="https://education.deez.it.com/stickman-hook/index.html"><img src="https://education.deez.it.com/images/stickmanhook.png" title="Stickman Hook"></a>
+  <a id="104" data-url="https://education.deez.it.com/stackball/index.html"><img src="https://education.deez.it.com/images/stackball.png" title="Stackball"></a>
+  <a id="105" data-url="https://education.deez.it.com/stack/index.html"><img src="https://education.deez.it.com/images/stack.png" title="Stack"></a>
+  <a id="106" data-url="https://education.deez.it.com/stack-bump-3d/index.html"><img src="https://education.deez.it.com/images/stackbump3d.png" title="Stack Bump 3D"></a>
+  <a id="107" data-url="https://education.deez.it.com/space-company/index.html"><img src="https://education.deez.it.com/images/spacecompany.png" title="Space Company"></a>
+  <a id="108" data-url="https://education.deez.it.com/soundboard/index.html"><img src="https://education.deez.it.com/images/soundboard.png" title="Soundboard"></a>
+  <a id="109" data-url="https://education.deez.it.com/soccer-heads/index.html"><img src="https://education.deez.it.com/images/soccerheads.png" title="Soccer Heads"></a>
+  <a id="110" data-url="https://education.deez.it.com/sniper-shot/index.html"><img src="https://education.deez.it.com/images/snipershot.png" title="Sniper Shot"></a>
+  <a id="111" data-url="https://education.deez.it.com/sm64/index.html"><img src="https://education.deez.it.com/images/supermario64.png" title="Super Mario 64"></a>
+  <a id="112" data-url="https://education.deez.it.com/slope-2/index.html"><img src="https://education.deez.it.com/images/slope2.png" title="Slope 2"></a>
+  <a id="113" data-url="https://education.deez.it.com/skibidi-strike/index.html"><img src="https://education.deez.it.com/images/skibidistrike.png" title="Skibidi Strike"></a>
+  <a id="114" data-url="https://education.deez.it.com/scrapmetal/index.html"><img src="https://education.deez.it.com/images/scrapmetal3.png" title="Scrap Metal 3"></a>
+  <a id="115" data-url="https://education.deez.it.com/Rocket-League/index.html"><img src="https://education.deez.it.com/images/rocketleague.png" title="Rocket League"></a>
+  <a id="116" data-url="https://education.deez.it.com/risehigher/index.html"><img src="https://education.deez.it.com/images/risehigher.png" title="Rise Higher"></a>
+  <a id="117" data-url="https://education.deez.it.com/popcat/index.html"><img src="https://education.deez.it.com/images/popcat.png" title="Popcat"></a>
+  <a id="118" data-url="https://education.deez.it.com/plantsvszombies/plants%20vs%20zombies.html"><img src="https://education.deez.it.com/images/plantsvszombies.png" title="Plants vs Zombies"></a>
+  <a id="119" data-url="https://education.deez.it.com/papery-planes/index.html"><img src="https://education.deez.it.com/images/paperyplanes.png" title="Papery Planes"></a>
+  <a id="120" data-url="https://education.deez.it.com/paper-minecraft/index.html"><img src="https://education.deez.it.com/images/paperminecraft.png" title="Paper Minecraft"></a>
+  <a id="121" data-url="https://education.deez.it.com/osu.html"><img src="https://education.deez.it.com/images/osu.png" title="osu!"></a>
+  <a id="122" data-url="https://education.deez.it.com/nut-simulator/index.html"><img src="https://education.deez.it.com/images/nutsimulator.png" title="Nut Simulator"></a>
+  <a id="123" data-url="https://education.deez.it.com/mr-bullet/index.html"><img src="https://education.deez.it.com/images/mrbullet.png" title="Mr. Bullet"></a>
+  <a id="124" data-url="https://education.deez.it.com/minecraft-case/index.html"><img src="https://education.deez.it.com/images/minecraftcase.png" title="Minecraft Case"></a>
+  <a id="125" data-url="https://education.deez.it.com/slow-roads/index.html"><img src="https://education.deez.it.com/images/slowroads.png" title="Slowroads"></a>
+  <a id="126" data-url="https://education.deez.it.com/maskedspecialforces/index.html"><img src="https://education.deez.it.com/images/maskedspecialforces.png" title="Masked Special Forces"></a>
+  <a id="127" data-url="https://education.deez.it.com/lemonadestand.html"><img src="https://education.deez.it.com/images/lemonadestand.png" title="Lemonade Stand"></a>
+  <a id="128" data-url="https://education.deez.it.com/jetpack-joyride/index.html"><img src="https://education.deez.it.com/images/jetpackjoyride.png" title="Jetpack Joyride"></a>
+  <a id="129" data-url="https://education.deez.it.com/idle-restaurants/index.html"><img src="https://education.deez.it.com/images/idleresturanttycoon.png" title="Idle Resturants"></a>
+  <a id="130" data-url="https://education.deez.it.com/hop-pop-it/index.html"><img src="https://education.deez.it.com/images/hoppopit.png" title="Hop Pop It"></a>
+  <a id="131" data-url="https://education.deez.it.com/gswitch-3/index.html"><img src="https://education.deez.it.com/images/gswitch3.png" title="G Switch 3"></a>
+  <a id="132" data-url="https://education.deez.it.com/googlesnake.html"><img src="https://education.deez.it.com/images/googlesnake.png" title="Google Snake"></a>
+  <a id="133" data-url="https://education.deez.it.com/google-feud/index.html"><img src="https://education.deez.it.com/images/googlefeud.png" title="Google Feud"></a>
+  <a id="134" data-url="https://education.deez.it.com/glass-city/index.html"><img src="https://education.deez.it.com/images/glasscity.png" title="Glass City"></a>
+  <a id="135" data-url="https://education.deez.it.com/getting-over-it/index.html"><img src="https://education.deez.it.com/images/gettingoverit.png" title="Getting Over It"></a>
+  <a id="136" data-url="https://education.deez.it.com/fruitninja/index.html"><img src="https://education.deez.it.com/images/fruitninja.png" title="Fruit Ninja"></a>
+  <a id="137" data-url="https://education.deez.it.com/football-strike/index.html"><img src="https://education.deez.it.com/images/footballstrike.png" title="Football Strike"></a>
+  <a id="138" data-url="https://education.deez.it.com/flappy-bird/index.html"><img src="https://education.deez.it.com/images/flappybird.png" title="Flappy Bird"></a>
+  <a id="139" data-url="https://education.deez.it.com/fake-virus/index.html"><img src="https://education.deez.it.com/images/fakevirus.png" title="Fake Virus"></a>
+  <a id="140" data-url="https://education.deez.it.com/eel-slap/index.html"><img src="https://education.deez.it.com/images/eelslap.png" title="Eel Slap"></a>
+  <a id="141" data-url="https://education.deez.it.com/edge-surf/index.html"><img src="https://education.deez.it.com/images/edgesurf.png" title="Edge Surf"></a>
+  <a id="142" data-url="https://education.deez.it.com/e/index.html"><img src="https://education.deez.it.com/images/taptapshots.png" title="Tap Tap Shots"></a>
+  <a id="143" data-url="https://education.deez.it.com/ducklife4/index.html"><img src="https://education.deez.it.com/images/ducklife4.png" title="Duck Life 4"></a>
+  <a id="144" data-url="https://education.deez.it.com/drivemad/index.html"><img src="https://education.deez.it.com/images/drivemad.png" title="Drive Mad"></a>
+  <a id="145" data-url="https://education.deez.it.com/drift-boss/index.html"><img src="https://education.deez.it.com/images/driftboss.png" title="Drift Boss"></a>
+  <a id="146" data-url="https://education.deez.it.com/draw-the-hill/index.html"><img src="https://education.deez.it.com/images/drawthehill.png" title="Draw The Hill"></a>
+  <a id="147" data-url="https://education.deez.it.com/doodle-jump/index.html"><img src="https://education.deez.it.com/images/doodlejump.png" title="Doodle Jump"></a>
+  <a id="148" data-url="https://education.deez.it.com/deal-or-no-deal/index.html"><img src="https://education.deez.it.com/images/dealornodeal.png" title="Deal or No Deal"></a>
+  <a id="149" data-url="https://education.deez.it.com/d/index.html"><img src="https://education.deez.it.com/images/epicstuntcars.png" title="Epic Stunt Cars"></a>
+  <a id="150" data-url="https://education.deez.it.com/cuttherope-Timetravel/index.html"><img src="https://education.deez.it.com/images/cuttherope.png" title="Cut The Rope"></a>
+  <a id="151" data-url="https://education.deez.it.com/csgoclicker/index.html"><img src="https://education.deez.it.com/images/csgoclicker.png" title="CS:GO Clicker"></a>
+  <a id="152" data-url="https://education.deez.it.com/clusterrush/index.html"><img src="https://education.deez.it.com/images/clusterrush.png" title="Cluster Rush"></a>
+  <a id="153" data-url="https://education.deez.it.com/clicker-heroes/index.html"><img src="https://education.deez.it.com/images/clickerheroes.png" title="Clicker Heroes"></a>
+  <a id="154" data-url="https://education.deez.it.com/chrome-dino/index.html"><img src="https://education.deez.it.com/images/chromedino.png" title="Chrome Dino"></a>
+  <a id="155" data-url="https://education.deez.it.com/cars-simulator/index.html"><img src="https://education.deez.it.com/images/carssimulator.png" title="Cars Simulator"></a>
+  <a id="156" data-url="https://education.deez.it.com/candycrushsaga.html"><img src="https://education.deez.it.com/images/candycrushsaga.png" title="Candy Crush Saga"></a>
+  <a id="157" data-url="https://education.deez.it.com/bottle-flip/index.html"><img src="https://education.deez.it.com/images/bottleflip3d.png" title="Bottle Flip 3D"></a>
+  <a id="158" data-url="https://education.deez.it.com/ballistic/index.html"><img src="https://education.deez.it.com/images/ballistic.png" title="Ballistic"></a>
+  <a id="159" data-url="https://education.deez.it.com/Ball-Hop/index.html"><img src="https://education.deez.it.com/images/ballhop.png" title="Ball Hop"></a>
+  <a id="160" data-url="https://education.deez.it.com/bacon-may-die/index.html"><img src="https://education.deez.it.com/images/baconmaydie.png" title="Bacon May Die"></a>
+  <a id="161" data-url="https://education.deez.it.com/backrooms/index.html"><img src="https://education.deez.it.com/images/backrooms.png" title="Backrooms"></a>
+  <a id="162" data-url="https://education.deez.it.com/aquapark-slides/index.html"><img src="https://education.deez.it.com/images/aquaparkslides.png" title="Aquapark Slides"></a>
+  <a id="163" data-url="https://education.deez.it.com/angrybirds/index.html"><img src="https://education.deez.it.com/images/angrybirds.png" title="Angry Birds"></a>
+  <a id="164" data-url="https://education.deez.it.com/adventure-drivers/index.html"><img src="https://education.deez.it.com/images/adventuredrivers.png" title="Adventure Drivers"></a>
+  <a id="165" data-url="https://pocketbattleroyale.h5games.usercontent.goog/v/7a1tg7kmi4mfg/?origin=https%3A%2F%2Fgamesnacks.com&amp;gameCenterId=yt&amp;userActivityMetrics=true&amp;eids=95340509&amp;features=InterstitialFreqCap__freq_cap_60s%2CInterstitialFreqCap__block_pga_1m_interstitials%2CMonetization__populate_google_global_correlator%2CMonetization__use_ppabg_tag#pc=30652399916874&amp;preStart=1726706652900"><img src="https://education.deez.it.com/images/pocketbattleroyale.png" title="Pocket Battle Royale"></a>
+  <a id="166" data-url="https://education.deez.it.com/a/index.html"><img src="https://education.deez.it.com/images/onlyupball.png" title="Only Up Ball"></a>
+  <a id="167" data-url="https://education.deez.it.com/1/index.html"><img src="https://education.deez.it.com/images/1.png" title="1"></a>
+  <a id="168" data-url="https://education.deez.it.com/n-gon/index.html"><img src="https://education.deez.it.com/images/ngon.png" title="n-gon"></a>
+  <a id="169" data-url="https://mathisyum.us.kghttps://educate.stemfuse.com/sf-serve/76/snowdown_showdown/index.html?class_id=&amp;course_id=&amp;active="><img src="https://education.deez.it.com/images/snowdownshowdown.png" title="Snowdown Showdown"></a>
+  <a id="170" data-url="https://movingco.h5games.usercontent.goog/v/8fe98e0f-b1b7-4fc6-8023-200af0320f20/?origin=https%3A%2F%2Fgamesnacks.com&amp;gameCenterId=yt&amp;userActivityMetrics=true&amp;eids=95340509&amp;features=InterstitialFreqCap__freq_cap_60s%2CInterstitialFreqCap__block_pga_1m_interstitials%2CMonetization__populate_google_global_correlator%2CMonetization__use_ppabg_tag#pc=3401423534985718&amp;preStart=1726706962732"><img src="https://education.deez.it.com/images/movingco.png" title="Moving Co."></a>
+  <a id="171" data-url="https://education.deez.it.com/timeshooter2/index.html"><img src="https://education.deez.it.com/images/timeshooter2.png" title="Time Shooter 2"></a>
+  <a id="172" data-url="https://education.deez.it.com/thereisnogame/index.html"><img src="https://education.deez.it.com/images/thereisnogame.png" title="There is no Game"></a>
+  <a id="173" data-url="https://education.deez.it.com/superhot/index.html"><img src="https://education.deez.it.com/images/superhot.png" title="Superhot"></a>
+  <a id="174" data-url="https://education.deez.it.com/worldshardestgame3/index.html"><img src="https://education.deez.it.com/images/worldshardestgame.png" title="World's Hardest Game"></a>
+  <a id="175" data-url="https://education.deez.it.com/thefinalearth2/index.html"><img src="https://education.deez.it.com/images/thefinalearth2.png" title="The Final Earth 2"></a>
+  <a id="176" data-url="https://education.deez.it.com/axisfootballleague.html"><img src="https://education.deez.it.com/images/axisfootballleague.png" title="Axis Football League"></a>
+  <a id="177" data-url="https://education.deez.it.com/ageofdefense3.html"><img src="https://education.deez.it.com/images/ageofdefense3.png" title="Age Of Defense 3"></a>
+  <a id="178" data-url="https://education.deez.it.com/ageofdefense4.html"><img src="https://education.deez.it.com/images/ageofdefense4.png" title="Age Of Defense 4"></a>
+  <a id="179" data-url="https://education.deez.it.com/airportmadness3.html"><img src="https://education.deez.it.com/images/airportmadness3.png" title="Airport Madness 3"></a>
+  <a id="180" data-url="https://education.deez.it.com/appleshooter.html"><img src="https://education.deez.it.com/images/appleshooter.png" title="Apple Shooter"></a>
+  <a id="181" data-url="https://education.deez.it.com/awesomerun.html"><img src="https://education.deez.it.com/images/awesomerun.png" title="Awesome Run"></a>
+  <a id="182" data-url="https://education.deez.it.com/awesomerun2.html"><img src="https://education.deez.it.com/images/awesomerun2.png" title="Awesome Run 2"></a>
+  <a id="183" data-url="https://education.deez.it.com/bladeball/index.html"><img src="https://education.deez.it.com/images/bladeball.png" title="Blade Ball"></a>
+  <a id="184" data-url="https://education.deez.it.com/bubbleshooter.html"><img src="https://education.deez.it.com/images/bubbleshooter.png" title="Bubble Shooter"></a>
+  <a id="185" data-url="https://education.deez.it.com/ball-sort-soccer/index.html"><img src="https://education.deez.it.com/images/ballsortsoccer.png" title="Ball Sort Soccer"></a>
+  <a id="186" data-url="https://education.deez.it.com/angry-sharks/index.html"><img src="https://education.deez.it.com/images/angrysharks.png" title="Angry Sharks"></a>
+  <a id="187" data-url="https://education.deez.it.com/vex3/index.html"><img src="https://education.deez.it.com/images/vex3.png" title="Vex 3"></a>
+  <a id="188" data-url="https://education.deez.it.com/vex4/index.html"><img src="https://education.deez.it.com/images/vex4.png" title="Vex 4"></a>
+  <a id="189" data-url="https://education.deez.it.com/vex6/index.html"><img src="https://education.deez.it.com/images/vex6.png" title="Vex 6"></a>
+  <a id="190" data-url="https://education.deez.it.com/bank/index.html"><img src="https://education.deez.it.com/images/bankrobbery.png" title="Bank Robbery"></a>
+  <a id="191" data-url="https://education.deez.it.com/1v1lol/index.html"><img src="https://education.deez.it.com/images/1v1lol.png" title="1v1.lol"></a>
+  <a id="192" data-url="https://education.deez.it.com/smashkarts/index.html"><img src="https://education.deez.it.com/images/smashkarts.png" title="Smash Karts"></a>
+  <a id="193" data-url="https://education.deez.it.com/sausage/index.html"><img src="https://education.deez.it.com/images/sausageflip.png" title="Sausage Flip"></a>
+  <a id="194" data-url="https://education.deez.it.com/drifthunters/index.html"><img src="https://education.deez.it.com/images/drifthunters.png" title="Drift Hunters"></a>
+  <a id="195" data-url="https://education.deez.it.com/basketbros-io/index.html"><img src="https://education.deez.it.com/images/basketbros.png" title="Basket Bros"></a>
+  <a id="196" data-url="https://education.deez.it.com/bank-robbery-2/index.html"><img src="https://education.deez.it.com/images/bankrobbery2.png" title="Bank Robbery 2"></a>
+  <a id="197" data-url="https://education.deez.it.com/bank-robbery-3/index.html"><img src="https://education.deez.it.com/images/bankrobbery3.png" title="Bank Robbery 3"></a>
+  <a id="198" data-url="https://education.deez.it.com/ks2teams/index.html"><img src="https://education.deez.it.com/images/ks2teams.png" title="KS2 Teams"></a>
+  <a id="199" data-url="https://education.deez.it.com/ovodimensions/index.html"><img src="https://education.deez.it.com/images/ovodimensions.png" title="OvO Dimensions"></a>
+  <a id="200" data-url="https://education.deez.it.com/stickmanbike/index.html"><img src="https://education.deez.it.com/images/stickmanbike.png" title="Stickman Bike"></a>
+  <a id="201" data-url="https://education.deez.it.com/funnyshooter2/index.html"><img src="https://education.deez.it.com/images/funnyshooter2.png" title="Funny Shooter 2"></a>
+  <a id="202" data-url="https://education.deez.it.com/dune/index.html"><img src="https://education.deez.it.com/images/dune.png" title="Dune"></a>
+  <a id="203" data-url="https://education.deez.it.com/hackertyper/index.html"><img src="https://education.deez.it.com/images/hackertyper.png" title="Hacker Typer"></a>
+  <a id="204" data-url="https://education.deez.it.com/penaltyshooter2/index.html"><img src="https://education.deez.it.com/images/penaltyshooter2.png" title="Penalty Shooters 2"></a>
+  <a id="205" data-url="https://education.deez.it.com/penaltyshooter3/index.html"><img src="https://education.deez.it.com/images/penaltyshooter3.png" title="Penalty Shooters 3"></a>
+  <a id="206" data-url="https://education.deez.it.com/mergeroundracers/index.html"><img src="https://education.deez.it.com/images/mergeroundracers.png" title="Merge Round Racers"></a>
+  <a id="207" data-url="https://education.deez.it.com/motox3m2/index.html"><img src="https://education.deez.it.com/images/motox3m2.png" title="Moto X3M 2"></a>
+  <a id="208" data-url="https://education.deez.it.com/retrobowlcollege/index.html"><img src="https://education.deez.it.com/images/retrobowlcollege.png" title="Retro Bowl College"></a>
+  <a id="209" data-url="https://education.deez.it.com/2048/index.html"><img src="https://education.deez.it.com/images/2048.png" title="2048"></a>
+  <a id="210" data-url="https://education.deez.it.com/flappybasketball/index.html"><img src="https://education.deez.it.com/images/flappybasketball.png" title="Flappy Basketball"></a>
+  <a id="211" data-url="https://education.deez.it.com/helixfruitjump/index.html"><img src="https://education.deez.it.com/images/helixfruitjump.png" title="Helix Fruit Jump"></a>
+  <a id="212" data-url="https://education.deez.it.com/ultimatecardriving/index.html"><img src="https://education.deez.it.com/images/ultimatecardriving.png" title="Ultimate Car Driving"></a>
+  <a id="213" data-url="https://education.deez.it.com/extrememotorcycledriving/index.html"><img src="https://education.deez.it.com/images/extrememotorcycledriving.png" title="Extreme Motorcycle Driving"></a>
+  <a id="214" data-url="https://education.deez.it.com/basketballdunkshoot/index.html"><img src="https://education.deez.it.com/images/basketballdunkshoot.png" title="Basketball Dunk Shoot"></a>
+  <a id="215" data-url="https://education.deez.it.com/policecarsimulator/index.html"><img src="https://education.deez.it.com/images/policecarsimulator.png" title="Police Car Simulator"></a>
+  <a id="216" data-url="https://education.deez.it.com/carparkingmaster/index.html"><img src="https://education.deez.it.com/images/carparkingmaster.png" title="Car Parking Master"></a>
+  <a id="217" data-url="https://education.deez.it.com/ballsavoid/index.html"><img src="https://education.deez.it.com/images/ballsavoid.png" title="Balls Avoid"></a>
+  <a id="218" data-url="https://education.deez.it.com/shootstickman/index.html"><img src="https://education.deez.it.com/images/shootstickman.png" title="Shoot Stickman"></a>
+  <a id="219" data-url="https://education.deez.it.com/gunfest/index.html"><img src="https://education.deez.it.com/images/gunfest.png" title="Gun Fest"></a>
+  <a id="220" data-url="https://education.deez.it.com/crazypixelcarracing/index.html"><img src="https://education.deez.it.com/images/crazypixelcarracing.png" title="Crazy Pixel Car Racing"></a>
+  <a id="221" data-url="https://education.deez.it.com/wildwestsnipershooting/index.html"><img src="https://education.deez.it.com/images/wildwestsnipershooting.png" title="Wild West Sniper Shooting"></a>
+  <a id="222" data-url="https://education.deez.it.com/extremedriftcars/index.html"><img src="https://education.deez.it.com/images/extremedriftcars.png" title="Extreme Drift Cars"></a>
+  <a id="223" data-url="https://education.deez.it.com/crowdcity/index.html"><img src="https://education.deez.it.com/images/crowdcity.png" title="Crowd City"></a>
+  <a id="224" data-url="https://education.deez.it.com/spacewaves/index.html"><img src="https://education.deez.it.com/images/spacewaves.png" title="Space Waves"></a>
+  <a id="225" data-url="https://education.deez.it.com/stopthelock/index.html"><img src="https://education.deez.it.com/images/stopthelock.png" title="Stop The Lock"></a>
+  <a id="226" data-url="https://education.deez.it.com/stacksurfer/index.html"><img src="https://education.deez.it.com/images/stacksurfer.png" title="Stack Surfer"></a>
+  <a id="227" data-url="https://education.deez.it.com/mergeballsblast/index.html"><img src="https://education.deez.it.com/images/mergeballsblast.png" title="Merge Balls Blast"></a>
+  <a id="228" data-url="https://education.deez.it.com/realflightsimulator/index.html"><img src="https://education.deez.it.com/images/realflightsimulator.png" title="Real Flight Simulator"></a>
+  <a id="229" data-url="https://education.deez.it.com/driftcarsmultiplayer/index.html"><img src="https://education.deez.it.com/images/driftcarsmultiplayer.png" title="Drift Cars Multiplayer"></a>
+  <a id="230" data-url="https://education.deez.it.com/battleonroad/index.html"><img src="https://education.deez.it.com/images/battleonroad.png" title="Battle On Road"></a>
+  <a id="231" data-url="https://education.deez.it.com/holeeater/index.html"><img src="https://education.deez.it.com/images/holeeater.png" title="Hole Eater"></a>
+  <a id="232" data-url="https://education.deez.it.com/scififlightsimulator/index.html"><img src="https://education.deez.it.com/images/scififlightsimulator.png" title="Sci-Fi Flight Simulator"></a>
+  <a id="233" data-url="https://education.deez.it.com/highhoops/index.html"><img src="https://education.deez.it.com/images/highhoops.png" title="High Hoops"></a>
+  <a id="234" data-url="https://education.deez.it.com/squidgamessurvival/index.html"><img src="https://education.deez.it.com/images/squidgamessurvival.png" title="Squid Games Survival"></a>
+  <a id="235" data-url="https://education.deez.it.com/bicycleridersimulator/index.html"><img src="https://education.deez.it.com/images/bicycleridersimulator.png" title="Bicycle Rider Simulator"></a>
+  <a id="236" data-url="https://education.deez.it.com/garbagetruckdriving/index.html"><img src="https://education.deez.it.com/images/garbagetruckdriving.png" title="Garbage Truck Driving"></a>
+  <a id="237" data-url="https://education.deez.it.com/stackbounce/index.html"><img src="https://education.deez.it.com/images/stackbounce.png" title="Stack Bounce"></a>
+  <a id="238" data-url="https://education.deez.it.com/earntodie/index.html"><img src="https://education.deez.it.com/images/earntodie.png" title="Earn To Die"></a>
+  <a id="239" data-url="https://education.deez.it.com/stumbleguys/index.html"><img src="https://education.deez.it.com/images/stumbleguys.png" title="Stumble Guys"></a>
+  <a id="240" data-url="https://education.deez.it.com/blockblast/index.html"><img src="https://education.deez.it.com/images/blockblast.png" title="Block Blast"></a>
+  <a id="241" data-url="https://education.deez.it.com/xtrenchrun/index.html"><img src="https://education.deez.it.com/images/xtrenchrun.png" title="X Trench Run"></a>
+  <a id="242" data-url="https://education.deez.it.com/granny/index.html"><img src="https://education.deez.it.com/images/granny.png" title="Granny"></a>
+  <a id="243" data-url="https://education.deez.it.com/pokeystick/index.html"><img src="https://education.deez.it.com/images/pokeystick.png" title="Pokey Stick"></a>
+  <a id="244" data-url="https://education.deez.it.com/gdunity/index.html"><img src="https://education.deez.it.com/images/gdunity.png" title="Geometry Dash Unity"></a>
+  <a id="245" data-url="https://education.deez.it.com/moneyrush/index.html"><img src="https://education.deez.it.com/images/moneyrush.png" title="Money Rush"></a>
+  <a id="246" data-url="https://education.deez.it.com/fliprunner/index.html"><img src="https://education.deez.it.com/images/fliprunner.png" title="Flip Runner"></a>
+  <a id="247" data-url="https://education.deez.it.com/tallmanrun/index.html"><img src="https://education.deez.it.com/images/tallmanrun.png" title="Tall Man Run"></a>
+  <a id="248" data-url="https://education.deez.it.com/pokemonemerald/index.html"><img src="https://education.deez.it.com/images/pokemonemerald.png" title="Pokemon Emerald"></a>
+  <a id="249" data-url="https://education.deez.it.com/idle-mining-empire/index.html"><img src="https://education.deez.it.com/images/idleminingempire.png" title="Idle Mining Empire"></a>
+  <a id="250" data-url="https://education.deez.it.com/breaking-the-bank/index.html"><img src="https://education.deez.it.com/images/breakingthebank.png" title="Breaking The Bank"></a>
+  <a id="251" data-url="https://education.deez.it.com/escaping-the-prison/index.html"><img src="https://education.deez.it.com/images/escapingtheprison.png" title="Escaping The Prison"></a>
+  <a id="252" data-url="https://education.deez.it.com/stealing-the-diamond/index.html"><img src="https://education.deez.it.com/images/stealingthediamond.png" title="Stealing The Diamond"></a>
+  <a id="253" data-url="https://education.deez.it.com/infiltrating-the-airship/index.html"><img src="https://education.deez.it.com/images/infiltratingtheairship.png" title="Infiltrating The Airship"></a>
+  <a id="254" data-url="https://education.deez.it.com/fleeing-the-complex/index.html"><img src="https://education.deez.it.com/images/fleeingthecomplex.png" title="Fleeing The Complex"></a>
