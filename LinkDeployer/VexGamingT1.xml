@@ -97,7 +97,7 @@
 <body onclick="openGame()">
 
     <!-- Click to start screen (only if pop-ups are blocked) -->
-    <div id="click-to-start" onclick="openGame()">Click anywhere to start Vex Gaming or open pop-ups</div>
+    <div id="click-to-start" onclick="openGame()">Click anywhere to start Gaming Made By (Vex Gaming) </div>
 
     <!-- Loading Screen -->
     <div id="loading-screen">
