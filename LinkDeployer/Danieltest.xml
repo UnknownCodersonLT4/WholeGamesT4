@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Party"/>
+<Content type="html"><![CDATA[
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DanielGaming | 2025</title>
+    <style>
+        /* Combined Theme Styles */
+        :root {
+            --background-color: #0a192f; /* Deep blue background */
+            --text-color: #ffffff; /* White text */
+            --accent-color: #007BFF; /* Blue accent */
+            --tab-background: rgba(10, 10, 26, 0.8);
+            --tab-border: #7a5fff;
+            --glow: 0 0 10px #7a5fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Loading screen styles */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .loader {
+            border: 6px solid var(--tab-background);
+            border-top: 6px solid var(--accent-color);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Progress Bar */
+        .progress-bar-container {
+            width: 60%;
+            background: var(--tab-background);
+            border-radius: 10px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            width: 0%;
+            height: 10px;
+            background: var(--accent-color);
+            transition: width 5s ease-in-out;
+        }
+
+        /* Click to start */
+        #click-to-start {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: var(--text-color);
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 2000;
+        }
+
+        /* Wave Header Animation */
+        .wave-header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298); /* Blue gradient */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 900px;
+            z-index: -1;
+            animation: waveAnimation 10s infinite alternate ease-in-out;
+        }
+
+        @keyframes waveAnimation {
+            0% {
+                transform: skewY(-2deg);
+            }
+            100% {
+                transform: skewY(2deg);
+            }
+        }
+
+        /* Curve at the bottom */
+        .curve {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 750px;
+            background: var(--background-color);
+            border-radius: 90% 80% 0 0;
+            transform: scaleX(1.5);
+        }
+
+        /* Header Title */
+        .header-title {
+            color: white;
+            font-size: 10vw;
+            font-weight: 900;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 20px 0;
+            margin-top: 50px;
+            position: relative;
+            text-shadow:
+                5px 5px 0px rgba(0,0,0,0.2),
+                10px 10px 20px rgba(0,0,0,0.4),
+                -2px -2px 15px rgba(255,255,255,0.1);
+            filter: drop-shadow(0 0 30px rgba(0,0,0,0.3));
+            animation: float 3s infinite ease-in-out, glow 1.5s infinite alternate;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px var(--accent-color), 0 0 20px var(--accent-color), 0 0 30px var(--accent-color), 0 0 40px var(--accent-color), 0 0 50px var(--accent-color);
+            }
+            100% {
+                text-shadow: 0 0 20px var(--accent-color), 0 0 30px var(--accent-color), 0 0 40px var(--accent-color), 0 0 50px var(--accent-color), 0 0 60px var(--accent-color);
+            }
+        }
+
+        /* Music Buttons Container */
+        .music-buttons-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .music-buttons-container button {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: 1px solid #555;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .music-buttons-container button:hover {
+            background-color: #555;
+        }
+
+        /* Clock Container */
+        .clock-container {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #ffffff;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            width: 100%;
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            .header-title {
+                font-size: 48px;
+            }
+            .music-buttons-container {
+                top: 10px;
+                right: 10px;
+            }
+            .clock-container {
+                top: 10px;
+                left: 10px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body onclick="openGame()">
+
+    <!-- Click to start screen (only if pop-ups are blocked) -->
+    <div id="click-to-start" onclick="openGame()">Click anywhere to start Gaming Made (Daniel Gaming) </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader"></div>
+        <p>Loading Daniel's Gaming Hub...</p>
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- Wave Header -->
+    <div class="wave-header"></div>
+    <div class="curve"></div>
+
+    <!-- Header Title -->
+    <h1 class="header-title">DanielGaming</h1>
+
+    <!-- Music Buttons -->
+    <div class="music-buttons-container">
+        <button onclick="playMusic()">Play Music</button>
+        <button onclick="pauseMusic()">Pause Music</button>
+    </div>
+
+    <!-- Clock -->
+    <div class="clock-container" id="clock">00:00:00</div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Unknown. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("DOMContentLoaded event fired");
+
+            const clickToStart = document.getElementById("click-to-start");
+            let popupBlocked = false;
+
+            // Check if pop-ups are allowed by opening a test window
+            try {
+                let testWin = window.open("", "_blank");
+                if (!testWin || testWin.closed || typeof testWin.closed === "undefined") {
+                    popupBlocked = true; // Pop-ups are blocked
+                } else {
+                    testWin.close(); // Pop-ups are allowed, close test window
+                }
+            } catch (err) {
+                popupBlocked = true;
+            }
+
+            if (popupBlocked) {
+                console.log("Popups are blocked. User must click to start.");
+                clickToStart.style.display = "flex"; // Show "Click to start" screen
+            } else {
+                console.log("Popups are allowed. Starting game automatically.");
+                startGame();
+            }
+
+            // Update clock every second
+            setInterval(updateClock, 1000);
+            updateClock(); // Initial call
+        });
+
+        function startGame() {
+            document.getElementById("click-to-start").style.display = "none"; // Hide the click-to-start screen
+
+            // Start the progress bar animation
+            const progressBar = document.getElementById("progress-bar");
+            progressBar.style.width = "100%";  // Fill the bar over 5 seconds
+
+            // After 5 seconds, automatically load the game in a new window
+            setTimeout(() => {
+                openGame(); 
+            }, 3000); // Wait for 5 seconds before automatically opening the game
+        }
+
+        function openGame() {
+            var win = window.open();
+            var url = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/UnknownCodersonLT4/WholeGamesT4@refs/heads/main/DanielStuff/DanielT3.xml?part=0.1&container=ig";
+            
+            // Set the custom title for the about:blank page
+            win.document.title = "Daniel's Gaming  Hub | 2025";
+
+            // Write the HTML structure for the new window
+            win.document.write(`
+                <html>
+                    <head>
+                    <title> Daniel Gaming  2025   | Games </title>
+                        <style>
+                            body, html { 
+                                margin: 0; 
+                                padding: 0; 
+                                height: 100%; 
+                                overflow: hidden; 
+                            }
+                        </style>
+                    </head>
+                    <body></body>
+                </html>
+            `);
+
+            // Create and append the iframe
+            var iframe = win.document.createElement('iframe');
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+
+            // Redirect the current page
+            location.replace("");
+        }
+
+        // Update Clock
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        // Disable right-click and F12
+        document.addEventListener("contextmenu", (event) => event.preventDefault());
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "F12" || (event.ctrlKey && event.shiftKey && event.key === "I")) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+</body>
+</html>
+  
+]]></Content>
+</Module>
