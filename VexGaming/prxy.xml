@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Party"/>
+<Content type="html"><![CDATA[
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vex Gaming | Proxy</title>
+    <style>
+        /* Your existing CSS styles */
+                        :root {
+            --background-color: #0a0a1a; /* Deep blue background */
+            --text-color: #a0a0ff; /* Light blue text */
+            --accent-color: #7a5fff; /* Purple accent */
+            --tab-background: rgba(10, 10, 26, 0.8); /* Semi-transparent deep blue */
+            --tab-border: #7a5fff; /* Purple border */
+            --glow: 0 0 10px #7a5fff; /* Purple glow */
+        }
+
+        * {
+            outline: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace; /* Default font */
+        }
+
+        body,
+        html {
+            height: 100%;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            overflow: hidden;
+        }
+
+        #matrix-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .matrix-column {
+            position: absolute;
+            top: -100%;
+            white-space: nowrap;
+            font-size: 16px;
+            line-height: 1.2;
+            color: rgba(160, 160, 255, 0.15); 
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(100vh);
+            }
+        }
+
+        #header {
+            background-color: var(--tab-background);
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid var(--tab-border);
+            box-shadow: var(--glow);
+        }
+
+        .control-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            border-radius: 10px;
+            font-size: 13px;
+            padding: 5px;
+            margin-right: 5px;
+            color: var(--text-color);
+            transition: background-color 0.4s, box-shadow 0.4s;
+        }
+
+        .control-button:hover {
+            background-color: var(--tab-border);
+            box-shadow: var(--glow);
+        }
+
+        #uv-form {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        #uv-address {
+            flex: 1;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid var(--tab-border);
+            border-radius: 20px;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #uv-address::placeholder {
+            color: rgba(160, 160, 255, 0.5); /* Light blue placeholder */
+        }
+
+        #uv-address:focus {
+            border-color: var(--accent-color);
+            outline: none;
+            box-shadow: var(--glow);
+        }
+
+        #content-frame {
+            width: 100%;
+            height: calc(100vh - 60px);
+            border: none;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .menu-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .menu-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-color);
+            font-size: 20px;
+            padding: 5px;
+            transition: box-shadow 0.4s;
+        }
+
+        .menu-button:hover {
+            box-shadow: var(--glow);
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: var(--tab-background);
+            border: 1px solid var(--tab-border);
+            border-radius: 5px;
+            min-width: 120px;
+            z-index: 1;
+            right: 0;
+            top: 100%;
+            box-shadow: var(--glow);
+        }
+
+        .dropdown-content button {
+            width: 100%;
+            padding: 10px;
+            text-align: left;
+            background: none;
+            border: none;
+            color: var(--text-color);
+            cursor: pointer;
+            transition: background-color 0.4s;
+        }
+
+        .dropdown-content button:hover {
+            background-color: var(--tab-border);
+        }
+
+        .show {
+            display: block;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1;
+        }
+
+        .content h1 {
+            font-size: 2.5rem;
+            color: var(--text-color);
+            text-shadow: var(--glow);
+        }
+
+        .content h1 span {
+            color: var(--accent-color);
+        }
+
+        .typewriter-container {
+            display: inline-block;
+        }
+
+        .typewriter-text {
+            color: var(--accent-color);
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace; /* Monospace font for typewriter */
+        }
+    </style>
+</head>
+<body>
+    <div id="matrix-bg"></div>
+    <div class="content" id="typewriter-container">
+        <h1>V<span>E</span>X Gaming is The best website for <br>
+            <div class="typewriter-container">
+                <span class="typewriter-text" id="typewriter-text"></span>
+            </div> <br>durning school.
+        </h1>
+    </div>
+    <div id="header">
+        <!-- Buttons without symbols initially -->
+        <button class="control-button" id="back-btn" title="Back"></button>
+        <button class="control-button" id="forward-btn" title="Forward"></button>
+        <button class="control-button" id="refresh-btn" title="Refresh"></button>
+        <form id="uv-form">
+            <input type="text" id="uv-address" placeholder="Enter URL or search query" required>
+            <button type="submit" class="control-button">Go</button>
+        </form>
+        <div class="menu-container">
+            <button class="menu-button" id="menu-btn">...</button>
+            <div class="dropdown-content" id="dropdown-menu">
+                <button id="home-btn">Home</button>
+                <button id="games-btn">Games</button>
+                <button id="ai-btn">Proxy</button>
+            </div>
+        </div>
+    </div>
+    <iframe id="content-frame" class="hidden"></iframe>
+
+    <script>
+        // Dynamically set button symbols
+        document.getElementById('back-btn').textContent = '\u2039'; // 9
+        document.getElementById('forward-btn').textContent = '\u203A'; // :
+        document.getElementById('refresh-btn').textContent = '\u21BB'; // »
+
+        // Typewriter Effect
+        const texts = [
+            "gaming",
+            "Playing Your Favriot Games",
+            "Making you Happy",
+            "For Being fun",
+            "entertainment"
+        ];
+
+        let currentTextIndex = 0;
+        let currentCharIndex = 0;
+        let isDeleting = false;
+        const typewriterText = document.getElementById('typewriter-text');
+        const typingSpeed = 150;
+        const deletingSpeed = 100;
+        const delayBetweenTexts = 2000;
+
+        function type() {
+            const currentText = texts[currentTextIndex];
+
+            if (isDeleting) {
+                typewriterText.textContent = currentText.substring(0, currentCharIndex - 1);
+                currentCharIndex--;
+            } else {
+                typewriterText.textContent = currentText.substring(0, currentCharIndex + 1);
+                currentCharIndex++;
+            }
+
+            if (!isDeleting && currentCharIndex === currentText.length) {
+                setTimeout(() => isDeleting = true, delayBetweenTexts);
+            } else if (isDeleting && currentCharIndex === 0) {
+                isDeleting = false;
+                currentTextIndex = (currentTextIndex + 1) % texts.length;
+            }
+
+            const speed = isDeleting ? deletingSpeed : typingSpeed;
+            setTimeout(type, speed);
+        }
+
+        // Matrix Background
+        function createMatrixBackground() {
+            const matrixBg = document.getElementById('matrix-bg');
+            const width = window.innerWidth;
+            const columnCount = Math.floor(width / 20);
+
+            const characters = '01';
+
+            for (let i = 0; i < columnCount; i++) {
+                const column = document.createElement('div');
+                column.className = 'matrix-column';
+
+                column.style.left = `${i * 20 + Math.random() * 10}px`;
+                column.style.animationDuration = `${5 + Math.random() * 15}s`;
+
+                let columnText = '';
+                for (let j = 0; j < 50; j++) {
+                    columnText += characters.charAt(Math.floor(Math.random() * characters.length)) + '<br>';
+                }
+
+                column.innerHTML = columnText;
+                matrixBg.appendChild(column);
+            }
+        }
+
+        // Encrypted Browsing
+        function encrypt(text) {
+            return btoa(text); // Base64 encoding
+        }
+
+        function decrypt(text) {
+            return atob(text); // Base64 decoding
+        }
+
+        // Function to load a URL in an iframe within a new window with a custom title
+        function loadInAboutBlank(url, title = 'New Window') {
+            const newWindow = window.open('about:blank', '_blank');
+            newWindow.document.title = title; // Set the custom title
+            const iframe = newWindow.document.createElement('iframe');
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.border = 'none';
+            iframe.src = url;
+            newWindow.document.body.style.margin = '0';
+            newWindow.document.body.appendChild(iframe);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Start Typewriter Effect
+            setTimeout(type, 500);
+
+            // Initialize Matrix Background
+            createMatrixBackground();
+
+            const form = document.getElementById('uv-form');
+            const address = document.getElementById('uv-address');
+            const contentFrame = document.getElementById('content-frame');
+            const backBtn = document.getElementById('back-btn');
+            const forwardBtn = document.getElementById('forward-btn');
+            const refreshBtn = document.getElementById('refresh-btn');
+            const menuBtn = document.getElementById('menu-btn');
+            const dropdownMenu = document.getElementById('dropdown-menu');
+            const homeBtn = document.getElementById('home-btn');
+            const gamesBtn = document.getElementById('games-btn');
+            const aiBtn = document.getElementById('ai-btn');
+            const typewriterContainer = document.getElementById('typewriter-container');
+
+            let history = [];
+            let historyIndex = -1;
+
+            
+            menuBtn.addEventListener('click', () => {
+                dropdownMenu.classList.toggle('show');
+            });
+
+            
+            window.addEventListener('click', (event) => {
+                if (!event.target.matches('.menu-button')) {
+                    if (dropdownMenu.classList.contains('show')) {
+                        dropdownMenu.classList.remove('show');
+                    }
+                }
+            });
+
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+                const input = address.value.trim();
+                let url;
+
+                if (input.match(/^(https?:\/\/)?([a-z0-9-]+\.)+[a-z0-9]{2,}(\/.*)?$/i)) {
+                    
+                    if (!input.startsWith('http://') && !input.startsWith('https://')) {
+                        url = 'https://' + input; 
+                    } else {
+                        url = input.replace(/^http:/, 'https:'); 
+                    }
+                } else {
+                    
+                    url = 'https://www.google.com/search?q=' + input;
+                }
+
+                
+                const encryptedUrl = encrypt(url);
+                console.log('Encrypted URL:', encryptedUrl);
+                
+                
+                const decryptedUrl = decrypt(encryptedUrl);
+                console.log('Decrypted URL:', decryptedUrl);
+                
+                history.push(decryptedUrl);
+                historyIndex = history.length - 1;
+                contentFrame.src = decryptedUrl;
+                contentFrame.classList.remove('hidden');
+
+               
+                typewriterContainer.classList.add('hidden');
+            });
+
+            backBtn.addEventListener('click', () => {
+                if (historyIndex > 0) {
+                    historyIndex--;
+                    contentFrame.src = history[historyIndex];
+                }
+            });
+
+            forwardBtn.addEventListener('click', () => {
+                if (historyIndex < history.length - 1) {
+                    historyIndex++;
+                    contentFrame.src = history[historyIndex];
+                }
+            });
+
+            refreshBtn.addEventListener('click', () => {
+                if (contentFrame.contentWindow) {
+                    contentFrame.contentWindow.location.reload();
+                }
+            });
+
+            
+            homeBtn.addEventListener('click', () => {
+                loadInAboutBlank(
+                    'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/UnknownCodersonLT4/WholeGamesT4@refs/heads/main/VexGaming/home.xml?part=0.1&container=ig',
+                    'Vex Gaming | Home ' 
+                );
+            });
+
+            gamesBtn.addEventListener('click', () => {
+                loadInAboutBlank(
+                    'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/UnknownCodersonLT4/WholeGamesT4@refs/heads/main/VexGaming/Games.xml?part=0.1&container=ig',
+                    'Vex Gaming | Games ' 
+                );
+            });
+
+            aiBtn.addEventListener('click', () => {
+                loadInAboutBlank(
+                    'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/UnknownCodersonLT4/WholeGamesT4@refs/heads/main/VexGaming/prxy.xml?part=0.1&container=ig',
+                    'Vex Gaming | Proxy' 
+                );
+            });
+        });
+
+        window.addEventListener('resize', () => {
+            const matrixBg = document.getElementById('matrix-bg');
+            matrixBg.innerHTML = '';
+            createMatrixBackground();
+        });
+    </script>
+</body>
+</html>
+  
+]]></Content>
+</Module>
